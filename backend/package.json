@@ -1,0 +1,19 @@
+{
+  "name": "farm2-backend",
+  "version": "1.0.0",
+  "description": "Goat Farm Management System Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "xlsx": "^0.18.5"
+  }
+}
